@@ -1,0 +1,1 @@
+Modified for 7.0.2 support (import() instead of require())
