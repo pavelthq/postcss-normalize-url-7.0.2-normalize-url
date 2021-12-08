@@ -1,17 +1,12 @@
 {
   "name": "postcss-normalize-url",
-  "version": "5.0.3",
+  "version": "5.0.3-vcwb",
   "description": "Normalize URLs with PostCSS",
   "main": "dist/index.js",
   "files": [
     "dist",
     "LICENSE-MIT"
   ],
-  "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.json --out-dir dist --ignore \"**/__tests__/\"",
-    "prepare": "yarn build"
-  },
   "keywords": [
     "css",
     "normalize",
